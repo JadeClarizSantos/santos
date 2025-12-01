@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        :root {
+            --nav-bg-color: black; 
+        }
+        body {
+            margin: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color: pink;
+        }
+        nav {
+            background-color: var(--nav-bg-color);
+            color: pink;
+            padding: 1rem;
+            text-align: center;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+        .content {
+            margin-top: 4rem; 
+            padding: 1rem;
+            background-color: black;
+            color: pink;
+            border-color: white;
+            padding: 8px 15px;
+            border-radius: 30px;
+            display: inline-block;
+            font-family: serif;
+        }
+        .box1 {
+
+            width: 500px;
+            height: 600px;
+            padding: 15px;
+            margin: 20px;
+            border: 10px solid black;
+            background-color: black;
+            color: pink;
+            border-radius: 40px;
+            font-family: serif; 
+        }
+        .box2 {
+
+            width: 500px;
+            height: 600px;
+            padding: 15px;
+            margin: 20px;
+            border: 10px solid black;
+            background-color: black;
+            color: pink;
+            border-radius: 40px;
+            font-family: serif;
+
+        }
+        .box3 {
+
+            width: 500px;
+            height: 600px;
+            padding: 15px;
+            margin: 20px;
+            border: 10px solid black;
+            background-color: black;
+            color: pink;
+            border-radius: 40px;
+            font-family: serif;
+
+        }
+        .boxes-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        My Website
+    </nav>
+    <div class="content">
+        <b><h1>Welcome to my website!</h1></b>
+        <b><h4>I am Jade Clariz Santos</h4></b>
+    </div>
+    <div class="boxes-container">
+        <div class="box1">
+            <center><b><h2>My Top 1 OPM Favorite Music </h2></b></center>
+            <h3 style="padding: 30px">7/11 By Toneejay</h3>
+            <a href="https://www.youtube.com/watch?v=9RJ-oc7cvW0" target="_blank">
+            <img src="https://img.youtube.com/vi/9RJ-oc7cvW0/hqdefault.jpg"
+                style="width:480px; border-radius:15px; cursor:pointer;">
+</a>
+            <p>This music is simple but direct, it's like a story of a sudden connection that I didn't expect but stayed in my mind.</p>
+        </div>
+
+        <div class="box2">
+            <center><b><h2>My Top 2 OPM Favorite Music </h2></b></center>
+            <h3 style="padding: 30px">Nahanap Kita - Amiel Sol (Official Music Video)</h3>
+            <a href="https://www.youtube.com/watch?v=FPz9GSC5QlM" target="_blank">
+            <img src="https://img.youtube.com/vi/FPz9GSC5QlM/hqdefault.jpg"
+                style="width:480px; border-radius:15px; cursor:pointer;">
+</a>
+            <p>I chose this song because it represents captures the feeling of finally finding the right person at the right time like a long-awaited answer.
+</p>
+        </div>
+
+        <div class="box3">
+            <center><b><h2>My Top 3 OPM Favorite Music </h2></b></center>
+            <h3 style="padding: 30px">Sagip - Jan Roberts (Lyric Visualizer)</h3>
+            <a href="https://www.youtube.com/watch?v=C43pOpjLLfM" target="_blank">
+            <img src="https://img.youtube.com/vi/C43pOpjLLfM/hqdefault.jpg"
+            style="width:480px; border-radius:15px; cursor:pointer;">
+            </a>
+            <p>I chose this because it’s about someone who feels like a lifeline someone who catches you when everything feels heavy.</p>
+        </div>
+    </div>
+</body>
+</html>
